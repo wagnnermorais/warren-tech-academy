@@ -1,1 +1,4 @@
-# warren-tech-academy
+## Sobre
+<p>Pequeno projeto que desenvolvi sobre o programa da <strong>Warren</strong> que participo, a ideia do site era contar de forma resumida sobre o programa e implementar alguns conhecimentos que adquiri com alguns meses de aula. Meu maior problema com o projeto, foi definitivamente a responsividade, tanto é que algumas coisas não consegui arrumar, porém, decidi upar ele mesmo com esses problemas para depois ir arrumando conforme for melhorando nas linguagens e ir deixando como uma conquista, um progresso.</p>
+
+<p>Também quero começar a implementar JavaScript no projeto quando tiver uma noção melhor da linguagem e do que ela pode proporcionar, ainda estou no começo dos estudos dessa parte mais "dinâmica" que a linguagem oferece, então, com o tempo, quero ir colocando essas funções dentro.</p>

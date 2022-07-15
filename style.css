@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Montserrat:wght@300;400;500;600&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto:wght@300&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+    --light-red: #e02b57;
+    --paragraph-color: #420707;
+    --gradient: linear-gradient(65deg, #E02B57, #e44d72);
+    --main-font: 'Montserrat', sans-serif;
+    --titles-font: 'Poppins', sans-serif;
+    --list-font: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+span {
+    color: var(--light-red);
+    font-weight: bolder;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: var(--light-red);
+    color: #fff;
+    border-radius: 50px;
+    border: 1.5px solid rgb(63, 3, 3);
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 2px 2px rgb(153, 67, 67);
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 14px;
+}
+
+header {
+    height: 120px;
+    background: var(--gradient);
+}
+
+.container img {
+    width: 145px;
+    height: 35px;
+    margin: 45px 10px -45px 10px;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-family: var(--titles-font)
+}
+
+.titles {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 32px;
+    color: var(--light-red);
+    font-family: var(--titles-font)
+}
+
+.box {
+    font-size: 22px;
+    margin: 0px 20px 0px 20px;
+    text-align: justify;
+    font-family: var(--main-font);
+}
+
+.box p, span {
+    margin-top: 15px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.sec-img {
+    height: 550px;
+    width: 750px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px 3px rgb(90, 52, 52);
+}
+
+.introducing h2 {
+    font-size: 48px;
+}
+
+.intro-subtitle {
+    font-size: 22px;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    font-family: var(--main-font);
+    color: var(--paragraph-color);
+    font-weight: 500;
+}
+
+.work-subtitle {
+    font-family: var(--main-font);
+    font-size: 24px;
+    margin: 15px 20px 0px 20px;
+}
+
+ul {
+    margin: 10px 0px 10px 0px;
+    list-style: url(img/new-arrow-24px.png);
+    font-size: 22px;
+    font-family: var(--main-font);
+    color: var(--light-red);
+    font-weight: bolder;
+}
+
+li {
+    font-family: var(--list-font);
+    font-weight: 700;
+}
+
+.workshops {
+    margin-left: 100px;
+}
+
+.fin-paragraph {
+    font-size: 22px;
+    margin: 25px 0px 5px 0px;
+    text-align: center;
+    font-family: var(--main-font);
+    color: var(--paragraph-color);
+    font-weight: 500;
+}
+
+.fin-title {
+    font-size: 48px;
+    margin: 24px 0px 15px 0px;
+    text-align: center;
+    font-family: var(--titles-font);
+    font-weight: 700;
+    color:var(--light-red);
+}
+
+.fin-workshop {
+    font-family: var(--main-font);
+    font-size: 22px;
+    margin: 0px 20px 0px 20px;
+    text-align: justify;
+}
+
+.fin-workshop a {
+    color: var(--light-red);
+    text-decoration: none;
+}
+
+.fin-f-paragraph {
+    margin: 0px 0px 8px 0px;
+}
+
+.fin-img {
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px 3px rgb(90, 52, 52);
+}
+
+.about-fin {
+    font-family: var(--main-font);
+    font-size: 28px;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 700;
+    color: var(--light-red);
+}
+
+.about-fin a {
+    color: var(--light-red);
+    text-decoration: none;
+}
+
+.contact-form {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    height: 34rem;
+    margin: 15px 55px 15px 55px;
+    background: #a54154;
+    padding: 25px 45px 0px 45px;
+    color: #fff;
+    font-size: 32px;
+    font-family: var(--titles-font);
+}
+
+input {
+    display: block;
+    height: 2.5rem;
+    width: 45rem;
+    outline: none;
+    border: 0.5px solid rgb(122, 58, 58);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    font-family: var(--titles-font);
+    font-size: 22px;
+}
+
+.button-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    text-align: center;
+    width: 250px;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid rgb(53, 48, 48);
+    margin-top: 4rem;
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(56deg, #be5555, #bd4747);
+
+}
+
+#button:hover {
+    background: linear-gradient(56deg, #cab5b7, #c5bbbc);
+    color: rgb(61, 48, 48);
+    border: 0.5px solid black;
+}
+
+footer {
+    height: 420px;
+    width: 100%;
+    background: var(--light-red);
+    margin-top: 4rem;
+}
+
+.footer-title {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    font-family: var(--titles-font)
+}
+
+.links {
+    font-size: 26px;
+    font-family: var(--titles-font);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links p {
+    margin-top: 15px;
+}
+
+.company {
+    margin: 3rem 2rem 1rem 3rem;
+    text-align: left;
+    font-size: 20px;
+    font-family: var(--titles-font);
+    color: #fff;
+}
+
+.company a {
+    text-decoration: none;
+    color: #fff;
+}
